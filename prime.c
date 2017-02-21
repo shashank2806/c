@@ -1,3 +1,4 @@
+//program for finding if a number is prime or not.
 #include <stdio.h>
 
 int main()
@@ -9,6 +10,7 @@ int main()
 	{
 		if (n%i==0)
 			x++;
+		//x will only be incremented if no is not prime.
 		else
 			y++;	
 	}
