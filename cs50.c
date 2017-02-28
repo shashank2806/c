@@ -3,6 +3,6 @@
 
 int main (void)
 {
-	int input = get_int();
+	int input = GetInt();
 	printf("%i\n",input );
 }
