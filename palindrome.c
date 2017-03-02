@@ -2,8 +2,15 @@
 
 int main(void)
 {
-	int a,;
+	int n,original,reverse=0,rem;
 	printf("Enter the no.\n");
-	scanf("%i",&a);
+	scanf("%i",&n);
+	original = n;
+
+	while(n!=0)
+	{
+		rem = n%10;
+		
+	}
 
 }
