@@ -7,6 +7,11 @@ int main(int argc, char *argv[])
 {
 	int a[D_MAX][D_MAX], b[D_MAX][D_MAX], c[D_MAX][D_MAX],i,j,k,d;
 	int sum = 0;
+	if(argc != 2)
+	{
+		printf("usage : ./mat_mul n\n");
+		return 1;
+	}
 	d = atoi(argv[1]);
 
 	printf("Enter the first matrix\n");
